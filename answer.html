@@ -1,0 +1,55 @@
+<!--basic boilerplate-->
+<!--sets the document to html-->
+<!DOCTYPE html>
+<!--sets the language to english-->
+<html lang="en">
+<head>
+  <!--sets the charcter style-->
+  <meta charset="UTF-8">
+  <!--ensures it renders properly on all screens-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--title that the browsers use to search-->
+  <title>Answer Page</title>
+  <!--links the style sheet-->
+  <link rel="stylesheet" href="CSS/style.css">
+  <!--links the javascript tags-->
+  <script src="script_2.js" defer></script>
+  
+</head>
+<body>
+
+<!--the back button linked to go back to the main page-->
+<a href="index.html"><button type="button" id="back_button">Return to main page</button></a>
+
+<!--the label buttons with the correct order-->
+<!--the heading-->
+<h2 id="correct_order_title">Correct Order</h2>
+<!--the buttons-->
+<div class="answer_cycle_container">
+    
+
+    <div class="answer_cycle odd" >Eggs</div>
+    <div class="answer_cycle even" 
+   >Egg with tadpole</div>
+    
+    <div class="answer_cycle odd" >Tadpole</div>
+    <div class="answer_cycle even" >Tadpole with legs</div>
+    <div class="answer_cycle odd" >Froglet</div>
+    
+    <div class="answer_cycle even" >Frog</div>
+    
+</div>
+  <!--link to the jquery libarary cdn-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!--link to the greensock library cdn-->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <!--link to the greensock draggable library-->
+  
+<!--link for scrooll trigger cdn for gsap 3-->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <!--plugin for gsap 3 for scroll-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+<!--link to the cdn for allowing draggable items cdn for gsap 3-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+</body>
+</html>  
